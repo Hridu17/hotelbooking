@@ -614,11 +614,19 @@ h6 {
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
+<<<<<<< HEAD
 /* #preloader {
   position: fixed;
   inset: 0;
   z-index: 9999;
   overflow: hidden;s
+=======
+#preloader {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  overflow: hidden;
+>>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
   background-color: var(--background-color);
   transition: all 0.6s ease-out;
   width: 100%;
@@ -654,7 +662,11 @@ h6 {
     left: calc(50% - 36px);
     opacity: 0;
   }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
 
 /*--------------------------------------------------------------
 # Scroll Top Button

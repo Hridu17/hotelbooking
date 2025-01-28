@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 
+=======
+>>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
 <main class="main">
     <!-- Hero Section -->
     <section id="hero" class="hero section light-background">
