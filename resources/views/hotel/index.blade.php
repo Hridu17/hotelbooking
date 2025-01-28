@@ -74,11 +74,11 @@
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
             </nav>
 
-<<<<<<< HEAD
+
             <a class="btn-getstarted" href="login">log in</a>
-=======
+
             <a class="btn-getstarted" href="login.html">log in</a>
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
         </div>
     </header>
 
@@ -100,11 +100,11 @@
                         </div>
                     </div>
                     <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-<<<<<<< HEAD
+
                         <img src="{{asset('assets/image/hotel1.png')}}" class="img-fluid animated" alt="" />
-=======
+
                         <img src="public/assets/image/hotel1.png" class="img-fluid animated" alt="" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
                     </div>
                 </div>
             </div>
@@ -126,11 +126,11 @@
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-<<<<<<< HEAD
+
                         <img src="{{ asset('assets/image/hotel2.jpg') }}" class="img-fluid mb-4" alt="" />
-=======
+
                         <img src="public/assets/image/hotel2.jpg" class="img-fluid mb-4" alt="" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
                         <div class="book-a-table">
                             <h3>Book a Table</h3>
                             <p>+977 9800000000</p>
@@ -154,11 +154,11 @@
                             </p>
 
                             <div class="position-relative mt-4">
-<<<<<<< HEAD
+
                                 <img src="{{ asset('assets/image/hotel3.jpg')}}" class="img-fluid" alt="" />
-=======
+
                                 <img src="public/assets/image/hotel3.jpg" class="img-fluid" alt="" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
                                 <a href="https://youtu.be/y_j2nhAJQtY?si=GZsVHMZlXOhsd1ay"
                                     class="glightbox pulsating-play-btn"></a>
                             </div>
@@ -238,11 +238,11 @@
 
         <!-- Stats Section -->
         <section id="stats" class="stats section dark-background">
-<<<<<<< HEAD
+
             <img src="{{ asset('assets/image/longlobby.jpg')}}" alt="" data-aos="fade-in" />
-=======
+
             <img src="public/assets/image/longlobby.jpg" alt="" data-aos="fade-in" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
 
             <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
                 <div class="row gy-4">
@@ -336,27 +336,27 @@
 
                         <div class="row gy-5">
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/standard7.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/img/rooms/standard7.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/standard7.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
-                                        alt="" /></a>
+
+                                <a href="public/assets/img/rooms/standard7.jpg" class="glightbox">
+                                <img src="public/assets/image/rooms/standard7.jpg" class="menu-img img-fluid" alt="">
+                                </a>
+
                                 <h4>Standard 1</h4>
                                 <p class="price">Rs. 25000 per-night</p>
                             </div>
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/standard2.jpeg')}}" class="menu-img img-fluid"
-=======
+
                                 <a href="public/assets/img/rooms/standard2.jpeg" class="glightbox"><img
                                         src="public/assets/image/rooms/standard2.jpeg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
                                         alt="" /></a>
                                 <h4>Standard 2</h4>
 
@@ -365,13 +365,13 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/standard3.jpg')}}" class="menu-img img-fluid"
-=======
+
                                 <a href="public/assets/image/rooms/standard3.jpg" class="glightbox"><img
                                         src="public/assets/img/rooms/standard3.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
                                         alt="" /></a>
                                 <h4>Standard 3</h4>
 
@@ -380,13 +380,13 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/standard4.jpg')}}" class="menu-img img-fluid"
-=======
+
                                 <a href="public/assets/img/rooms/standard4.jpg" class="glightbox"><img
                                         src="public/assets/image/rooms/standard4.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
                                         alt="" /></a>
                                 <h4>Standard 4</h4>
 
@@ -395,13 +395,12 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/standard5.jpg')}}" class="menu-img img-fluid"
-=======
+
                                 <a href="public/assets/img/rooms/standard5.jpg" class="glightbox"><img
                                         src="public/assets/image/rooms/standard5.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Standard 5</h4>
 
@@ -410,13 +409,12 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/standard6.avif')}}" class="menu-img img-fluid"
-=======
+
                                 <a href="public/assets/img/rooms/standard6.avif" class="glightbox"><img
                                         src="public/assets/image/rooms/standard6.avif" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Standard 6</h4>
 
@@ -435,13 +433,13 @@
 
                         <div class="row gy-5">
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/deluxe1.jpg')}}" class="menu-img img-fluid"
-=======
+
                                 <a href="public/assets/image/rooms/deluxe1.jpg" class="glightbox"><img
                                         src="public/assets/image/rooms/deluxe1.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
+
                                         alt="" /></a>
                                 <h4>Deluxe 1</h4>
 
@@ -450,14 +448,14 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
+
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/deluxe2.webp')}}" class="menu-img img-fluid"
-=======
+
                                 <a href="public/assets/image/rooms/deluxe2.webp" class="glightbox"><img
                                         src="public/assets/image/rooms/deluxe2.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
-                                        alt="" /></a>
+                                        alt="" />
+                                </a>
                                 <h4>Deluxe 2</h4>
 
                                 <p class="price">Rs. 36000 per-night</p>
@@ -468,7 +466,6 @@
 <<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                                 src="{{ asset('assets/image/rooms/deluxe3.jpg')}}" class="menu-img img-fluid"
-=======
                                 <a href="public/assets/image/rooms/deluxe3.jpg" class="glightbox"><img
                                         src="public/assets/image/rooms/deluxe3.jpg" class="menu-img img-fluid"
 >>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
@@ -480,13 +477,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/deluxe4.webp')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/deluxe4.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/deluxe4.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Deluxe 4</h4>
 
@@ -495,13 +487,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/deluxe5.webp')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/deluxe5.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/deluxe5.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Deluxe 5</h4>
 
@@ -510,13 +497,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/deluxe6.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/deluxe6.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/deluxe6.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Deuxe 6</h4>
 
@@ -535,13 +517,8 @@
 
                         <div class="row gy-5">
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/family1.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/family1.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/family1.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Family 1</h4>
                                 <p class="ingredients">
@@ -552,13 +529,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/family2.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/family2.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/family2.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Family 2</h4>
 
@@ -567,13 +539,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/family3.webp')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/family3.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/family3.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Family 3</h4>
 
@@ -582,13 +549,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/family4.webp')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/family4.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/family4.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>family 4</h4>
 
@@ -597,13 +559,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/family5.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/family5.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/family5.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Family 5</h4>
 
@@ -612,13 +569,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/family6.webp')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/family6.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/family6.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Family 6</h4>
 
@@ -637,13 +589,8 @@
 
                         <div class="row gy-5">
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/executive1.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/executive1.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/executive1.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Executive 1</h4>
 
@@ -652,13 +599,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/executive2.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/executive2.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/executive2.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Executive 2</h4>
 
@@ -667,13 +609,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/executive3.webp')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/executive3.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/executive3.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Executive 3</h4>
 
@@ -682,13 +619,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/executive4.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/executive4.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/executive4.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Execitive 4</h4>
 
@@ -697,13 +629,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/executive5.jpg')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/executive5.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/executive5.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Executive 5</h4>
 
@@ -712,13 +639,8 @@
                             <!-- Menu Item -->
 
                             <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
                                 <a href="" class="glightbox"><img
                                         src="{{ asset('assets/image/rooms/executive6.webp')}}" class="menu-img img-fluid"
-=======
-                                <a href="public/assets/image/rooms/executive6.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/executive6.webp" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                         alt="" /></a>
                                 <h4>Executive 6</h4>
 
@@ -788,11 +710,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-<<<<<<< HEAD
                                         <img src="{{ asset('assets/image/testimonials/kt1.avif')}}"
-=======
-                                        <img src="public/assets/image/testimonials/kt1.avif"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                             class="img-fluid testimonial-img" alt="" />
                                     </div>
                                 </div>
@@ -824,11 +742,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-<<<<<<< HEAD
                                         <img src="{{ asset('assets/image/testimonials/kt2.webp')}}"
-=======
-                                        <img src="public/assets/image/testimonials/kt2.webp"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                             class="img-fluid testimonial-img" alt="" />
                                     </div>
                                 </div>
@@ -861,11 +775,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-<<<<<<< HEAD
                                         <img src="{{ asset('assets/image/testimonials/kta3.webp')}}"
-=======
-                                        <img src="public/assets/image/testimonials/kta3.webp"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                             class="img-fluid testimonial-img" alt="" />
                                     </div>
                                 </div>
@@ -898,11 +808,7 @@
                                         </div>
                                     </div>
                                     <div class="col-lg-2 text-center">
-<<<<<<< HEAD
                                         <img src="{{ asset('assets/image/testimonials/kta4.webp')}}"
-=======
-                                        <img src="public/assets/image/testimonials/kta4.webp"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                             class="img-fluid testimonial-img" alt="" />
                                     </div>
                                 </div>
@@ -947,11 +853,7 @@
             </script>
                     <div class="swiper-wrapper">
                         <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-<<<<<<< HEAD
                             style="background-image: url({{ asset('assets/image/birthday.jpg')}})">
-=======
-                            style="background-image: url(public/assets/image/birthday.jpg)">
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                             <h3>Birthday Parties</h3>
                             <div class="price align-self-start">Rs. 35000</div>
                             <p class="description">
@@ -963,11 +865,7 @@
                         <!-- End Event item -->
 
                         <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-<<<<<<< HEAD
                             style="background-image: url({{ asset('assets/image/fashion.jpg')}})">
-=======
-                            style="background-image: url(public/assets/image/fashion.jpg)">
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                             <h3>Fashion Shows</h3>
                             <div class="price align-self-start">Rs. 150000</div>
                             <p class="description">
@@ -979,11 +877,7 @@
                         <!-- End Event item -->
 
                         <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-<<<<<<< HEAD
                             style="background-image: url({{ asset('assets/image/wedding.jpg')}})">
-=======
-                            style="background-image: url(public/assets/image/wedding.jpg)">
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                             <h3>Wedding Parties</h3>
                             <div class="price align-self-start">Rs. 200000</div>
                             <p class="description">
@@ -996,11 +890,7 @@
                         <!-- End Event item -->
 
                         <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-<<<<<<< HEAD
                             style="background-image: url({{ asset('assets/image/reunion.jpg')}})">
-=======
-                            style="background-image: url(public/assets/image/reunion.jpg)">
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                             <h3>Reunion Parties</h3>
                             <div class="price align-self-start">Rs. 90000</div>
                             <p class="description">
@@ -1035,11 +925,7 @@
                     <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
                         <div class="team-member">
                             <div class="member-img">
-<<<<<<< HEAD
                                 <img src="{{ asset('assets/image/members/Anisa.jpeg')}}" class="img-fluid" alt="" />
-=======
-                                <img src="public/assets/image/members/Anisa.jpeg" class="img-fluid" alt="" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter-x"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -1064,11 +950,7 @@
                     <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
                         <div class="team-member">
                             <div class="member-img">
-<<<<<<< HEAD
                                 <img src="{{ asset('assets/image/members/Hridu.jpeg')}}" class="img-fluid" alt="" />
-=======
-                                <img src="public/assets/image/members/Hridu.jpeg" class="img-fluid" alt="" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter-x"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -1092,11 +974,7 @@
                     <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
                         <div class="team-member">
                             <div class="member-img">
-<<<<<<< HEAD
                                 <img src="{{ asset('assets/image/members/pg.jpeg')}}" class="img-fluid" alt="" />
-=======
-                                <img src="public/assets/image/members/pg.jpeg" class="img-fluid" alt="" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                 <div class="social">
                                     <a href=""><i class="bi bi-twitter-x"></i></a>
                                     <a href=""><i class="bi bi-facebook"></i></a>
@@ -1136,11 +1014,7 @@
             <div class="container">
                 <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
                     <div class="col-lg-4 reservation-img"
-<<<<<<< HEAD
                         style="background-image: url({{ asset('assets/image/lobby.avif')}})"></div>
-=======
-                        style="background-image: url(public/assets/image/lobby.avif)"></div>
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
 
                     <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up"
                         data-aos-delay="200">
@@ -1244,90 +1118,50 @@
                     <div class="swiper-wrapper align-items-center">
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy1.avif')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy1.avif"><img
-                                    src="public/assets/image/gallery/enjoy1.avif" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy2.jpg')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy2.jpg"><img
-                                    src="apublic/assets/image/gallery/enjoy2.jpg" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy3.jpg')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy3.jpg"><img
-                                    src="public/assets/image/gallery/enjoy3.jpg" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy4.webp')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy4.webp"><img
-                                    src="public/assets/image/gallery/enjoy4.webp" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy5.jpg')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy5.jpg"><img
-                                    src="public/assets/image/gallery/enjoy5.jpg" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy6.jpg')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy6.jpg"><img
-                                    src="public/assets/image/gallery/enjoy6.jpg" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy7.jpg')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy7.jpg"><img
-                                    src="public/assets/image/gallery/enjoy7.jpg" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                         <div class="swiper-slide">
                             <a class="glightbox" data-gallery="images-gallery"
-<<<<<<< HEAD
                                 href=""><img
                                     src="{{ asset('assets/image/gallery/enjoy8.webp')}}" class="img-fluid"
-=======
-                                href="public/assets/image/gallery/enjoy8.webp"><img
-                                    src="public/assets/image/gallery/enjoy8.webp" class="img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
                                     alt="" /></a>
                         </div>
                     </div>
@@ -1520,7 +1354,6 @@
             class="bi bi-arrow-up-short"></i></a>
 
     <!-- Preloader -->
-<<<<<<< HEAD
     {{-- <div id="preloader"></div> --}}
 
     <!-- Vendor JS Files -->
@@ -1533,20 +1366,6 @@
 
     <!-- Main JS File -->
     <script src="{{asset('assets/js/main.js')}}"></script>
-=======
-    <div id="preloader"></div>
-
-    <!-- Vendor JS Files -->
-    <script src="public/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="public/assets/vendor/php-email-form/validate.js"></script>
-    <script src="public/assets/vendor/aos/aos.js"></script>
-    <script src="public/assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="public/assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="public/assets/vendor/swiper/swiper-bundle.min.js"></script>
-
-    <!-- Main JS File -->
-    <script src="public/assets/js/main.js"></script>
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
 </body>
 
 </html>
