@@ -38,7 +38,6 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
 </head>
 
 <body class="index-page">
@@ -76,9 +75,6 @@
 
 
             <a class="btn-getstarted" href="login">log in</a>
-
-            <a class="btn-getstarted" href="login.html">log in</a>
-
         </div>
     </header>
 
