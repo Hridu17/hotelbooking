@@ -9,6 +9,8 @@
     <meta name="keywords" content="hotel, booking, rooms, luxury, travel" />
 
     <!-- Favicons -->
+    <link href="{{asset('assets/image/favicon.png')}}" rel="icon" />
+    <link href="{{asset('assets/image/apple-touch-icon.png')}}" rel="apple-touch-icon" />
     <link href="public/assets/image/favicon.png" rel="icon" />
     <link href="public/assets/image/apple-touch-icon.png" rel="apple-touch-icon" />
 
@@ -20,12 +22,22 @@
         rel="stylesheet" />
 
     <!-- Vendor CSS Files -->
-    <link href="public/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="public/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-    <link href="public/assets/vendor/aos/aos.css" rel="stylesheet" />
-    <link href="public/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-    <link href="public/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="{{ asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{ asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet" />
+    <link href="{{ asset('assets/vendor/aos/aos.css')}}" rel="stylesheet" />
+    <link href="{{ asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet" />
+    <link href="{{ asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet" />
 
     <!-- Main CSS File -->
-    <link href="assets/css/main.css" rel="stylesheet" />
+    <link href="{{asset('assets/css/main.css')}}" rel="stylesheet" />
+    <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet" />
+    <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet" />
+    <link href="{{asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet" />
+    <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet" />
+
+    <!-- Main CSS File -->
+    <link href="{{asset('assets/css/main.css')}}" rel="stylesheet" />
 </head>
+
+<body class="index-page">
