@@ -19,13 +19,10 @@ body {
 }
 
 /* Gradient overlay for darkening */
-.gradient-custom-3 {
-    background: rgba(0, 0, 0, 0.6); /* Semi-transparent dark background */
-}
 
 /* Styling for the container and card */
 .container {
-    max-width: 600px;
+    max-width: 1000px;
     display: flex;
     justify-content: center;
     align-items: center;

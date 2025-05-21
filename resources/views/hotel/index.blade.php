@@ -1,1208 +1,248 @@
 @extends('layouts.main')
+
 @section('container')
-
-    <main class="main">
-        <!-- Hero Section -->
-        <section id="hero" class="hero section light-background">
-            <div class="container">
-                <div class="row gy-4 justify-content-center justify-content-lg-between">
-                    <div class="col-lg-5 order-2 order-lg-1 d-flex flex-column justify-content-center">
-                        <h1 data-aos="fade-up">
-                            Book yourself <br />
-                            A Five star hotels
-                        </h1>
-                        <p data-aos="fade-up" data-aos-delay="100">
-                            Looking for five star hotels? We got your back!!!
-                        </p>
-                        <div class="d-flex" data-aos="fade-up" data-aos-delay="200">
-                            <a href="#book-a-table" class="btn-get-started">Book a Room</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-
-                        <img src="{{asset('assets/image/hotel1.png')}}" class="img-fluid animated" alt="" />
-
-                        <img src="public/assets/image/hotel1.png" class="img-fluid animated" alt="" />
-
-                    </div>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero section bg-light py-5">
+        <div class="container">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                    <h1>Discover Luxury <br> at AHP Hotel</h1>
+                    <p class="lead">Book a room today and enjoy comfort, style, and hospitality like never before.</p>
+                    <a href="#book-room" class="btn btn-primary mt-3">Book a Room</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="{{ asset('assets/image/hotel1.png') }}" class="img-fluid" alt="Hotel Image">
                 </div>
             </div>
-        </section>
-        <!-- /Hero Section -->
+        </div>
+    </section>
 
-        <!-- About Section -->
-        <section id="about" class="about section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>About Us<br /></h2>
-                <p>
-                    <span>Learn More</span>
-                    <span class="description-title">About Us</span>
-                </p>
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section py-5 bg-white">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>About AHP Hotel</h2>
+                <p class="text-muted">Where elegance meets comfort in the heart of Pokhara.</p>
             </div>
-            <!-- End Section Title -->
-
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-7" data-aos="fade-up" data-aos-delay="100">
-
-                        <img src="{{ asset('assets/image/hotel2.jpg') }}" class="img-fluid mb-4" alt="" />
-
-                        <img src="public/assets/image/hotel2.jpg" class="img-fluid mb-4" alt="" />
-
-                        <div class="book-a-table">
-                            <h3>Book a Table</h3>
-                            <p>+977 9800000000</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5" data-aos="fade-up" data-aos-delay="250">
-                        <div class="content ps-0 ps-lg-5">
-                            <p>
-                                Welcome to AHP Hotel, where hospitality meets luxury. Nestled
-                                in the heart of Pokhara, we are dedicated to providing an
-                                unforgettable experience for every guest. Whether you're
-                                visiting for leisure or business, our hotel offers the perfect
-                                blend of comfort, elegance, and convenience.
-                            </p>
-                            <p>
-                                At AHP Hotel, we believe in creating lasting memories.
-                                Established in 2023, our journey began with a passion for
-                                exceptional hospitality. Over the years, we’ve become a
-                                trusted destination for travelers from all around the globe,
-                                known for our warm welcome and personalized service.
-                            </p>
-
-                            <div class="position-relative mt-4">
-
-                                <img src="{{ asset('assets/image/hotel3.jpg')}}" class="img-fluid" alt="" />
-
-                                <img src="public/assets/image/hotel3.jpg" class="img-fluid" alt="" />
-
-                                <a href="https://youtu.be/y_j2nhAJQtY?si=GZsVHMZlXOhsd1ay"
-                                    class="glightbox pulsating-play-btn"></a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="{{ asset('assets/image/hotel2.jpg') }}" class="img-fluid rounded" alt="Hotel Lobby">
+                </div>
+                <div class="col-lg-6">
+                    <p>
+                        At AHP Hotel, we strive to provide top-notch accommodations with world-class service. Whether you're
+                        here for business, leisure, or a celebration — you'll enjoy a luxurious experience in every corner.
+                    </p>
+                    <ul>
+                        <li>🌟 Five-Star Amenities</li>
+                        <li>🛌 Comfortable & Spacious Rooms</li>
+                        <li>👨‍🍳 In-house Gourmet Dining</li>
+                        <li>🌐 Free Wi-Fi & 24/7 Concierge</li>
+                    </ul>
                 </div>
             </div>
-        </section>
-        <!-- /About Section -->
+        </div>
+    </section>
 
-        <!-- Why Us Section -->
-        <section id="why-us" class="why-us section light-background">
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
-                        <div class="why-box">
-                            <h3>Why Choose AHP Hotel</h3>
-                            <p>
-                                Our hotel booking platform is designed with your convenience
-                                in mind. From finding the perfect room to seamless check-in,
-                                we make every step of your journey stress-free.
-                            </p>
-                            <div class="text-center">
-                                <a href="#" class="more-btn"><span>Learn More</span> <i
-                                        class="bi bi-chevron-right"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Why Box -->
-
-                    <div class="col-lg-8 d-flex align-items-stretch">
-                        <div class="row gy-4" data-aos="fade-up" data-aos-delay="200">
-                            <div class="col-xl-4">
-                                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                                    <i class="bi bi-clipboard-data"></i>
-                                    <h4>Best Price Guarantee</h4>
-                                    <p>
-                                        We offer the most competitive rates for luxurious stays.
-                                        Enjoy exclusive deals and discounts when you book directly
-                                        with us.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Icon Box -->
-
-                            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="300">
-                                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                                    <i class="bi bi-gem"></i>
-                                    <h4>Luxury Meets Comfort</h4>
-                                    <p>
-                                        Our hotels are equipped with world-class amenities to
-                                        ensure a memorable experience—spacious rooms, fine dining,
-                                        and relaxing wellness options.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Icon Box -->
-
-                            <div class="col-xl-4" data-aos="fade-up" data-aos-delay="400">
-                                <div class="icon-box d-flex flex-column justify-content-center align-items-center">
-                                    <i class="bi bi-inboxes"></i>
-                                    <h4>Personalized Service</h4>
-                                    <p>
-                                        We prioritize your needs. From 24/7 customer support to
-                                        tailored services, we’re here to make your stay
-                                        exceptional.
-                                    </p>
-                                </div>
-                            </div>
-                            <!-- End Icon Box -->
-                        </div>
-                    </div>
+    <!-- WHY US SECTION -->
+    <section id="why-us" class="section bg-light py-5">
+        <div class="container text-center">
+            <div class="section-title mb-4">
+                <h2>Why Choose Us</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Best Price Guarantee</h4>
+                    <p>We ensure you receive the best rates with every booking.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Tailored Experiences</h4>
+                    <p>Enjoy personalized stays suited for your every need.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Prime Location</h4>
+                    <p>Right in the heart of Pokhara – minutes from key landmarks.</p>
                 </div>
             </div>
-        </section>
-        <!-- /Why Us Section -->
+        </div>
+    </section>
 
-        <!-- Stats Section -->
-        <section id="stats" class="stats section dark-background">
-
-            <img src="{{ asset('assets/image/longlobby.jpg')}}" alt="" data-aos="fade-in" />
-
-            <img src="public/assets/image/longlobby.jpg" alt="" data-aos="fade-in" />
-
-
-            <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
-                <div class="row gy-4">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Happy Clients</p>
-                        </div>
-                    </div>
-                    <!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Successful Bookings</p>
-                        </div>
-                    </div>
-                    <!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="1453"
-                                data-purecounter-duration="1" class="purecounter"></span>
-                            <p>Hours Of Support</p>
-                        </div>
-                    </div>
-                    <!-- End Stats Item -->
-
-                    <div class="col-lg-3 col-md-6">
-                        <div class="stats-item text-center w-100 h-100">
-                            <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1"
-                                class="purecounter"></span>
-                            <p>Team members</p>
-                        </div>
-                    </div>
-                    <!-- End Stats Item -->
-                </div>
+    <!-- ROOMS SECTION -->
+    <section id="rooms" class="section py-5 bg-white">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Explore Our Rooms</h2>
+                <p class="text-muted">Choose from our range of rooms designed for comfort and luxury.</p>
             </div>
-        </section>
-        <!-- /Stats Section -->
 
-        <!-- Menu Section -->
-        <section id="menu" class="menu section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Our availabe packages</h2>
-                <p>
-                    <span>Check Our</span>
-                    <span class="description-title">Amazing packages</span>
-                </p>
-            </div>
-            <!-- End Section Title -->
-
-            <div class="container">
-                <ul class="nav nav-tabs d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-                    <li class="nav-item">
-                        <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#menu-starters">
-                            <h4>Standard Room</h4>
-                        </a>
-                    </li>
-                    <!-- End tab nav item -->
-
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-breakfast">
-                            <h4>Deluxe Room</h4>
-                        </a><!-- End tab nav item -->
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-lunch">
-                            <h4>Family Room</h4>
-                        </a>
-                    </li>
-                    <!-- End tab nav item -->
-
-                    <li class="nav-item">
-                        <a class="nav-link" data-bs-toggle="tab" data-bs-target="#menu-dinner">
-                            <h4>Executive Room</h4>
-                        </a>
-                    </li>
-                    <!-- End tab nav item -->
-                </ul>
-
-                <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
-                    <div class="tab-pane fade active show" id="menu-starters">
-                        <div class="tab-header text-center">
-                            <p>Rooms</p>
-                            <h3>Standard Room</h3>
-                        </div>
-
-                        <div class="row gy-5">
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/standard7.jpg')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/img/rooms/standard7.jpg" class="glightbox">
-                                <img src="public/assets/image/rooms/standard7.jpg" class="menu-img img-fluid" alt="">
-                                </a>
-
-                                <h4>Standard 1</h4>
-                                <p class="price">Rs. 25000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/standard2.jpeg')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/img/rooms/standard2.jpeg" class="glightbox"><img
-                                        src="public/assets/image/rooms/standard2.jpeg" class="menu-img img-fluid"
-
-                                        alt="" /></a>
-                                <h4>Standard 2</h4>
-
-                                <p class="price">Rs. 23000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/standard3.jpg')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/image/rooms/standard3.jpg" class="glightbox"><img
-                                        src="public/assets/img/rooms/standard3.jpg" class="menu-img img-fluid"
-
-                                        alt="" /></a>
-                                <h4>Standard 3</h4>
-
-                                <p class="price">Rs. 22000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/standard4.jpg')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/img/rooms/standard4.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/standard4.jpg" class="menu-img img-fluid"
-
-                                        alt="" /></a>
-                                <h4>Standard 4</h4>
-
-                                <p class="price">Rs. 22000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/standard5.jpg')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/img/rooms/standard5.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/standard5.jpg" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Standard 5</h4>
-
-                                <p class="price">Rs. 23000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/standard6.avif')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/img/rooms/standard6.avif" class="glightbox"><img
-                                        src="public/assets/image/rooms/standard6.avif" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Standard 6</h4>
-
-                                <p class="price">Rs. 26000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-                        </div>
-                    </div>
-                    <!-- End Starter Menu Content -->
-
-                    <div class="tab-pane fade" id="menu-breakfast">
-                        <div class="tab-header text-center">
-                            <p>Rooms</p>
-                            <h3>Deluxe Room</h3>
-                        </div>
-
-                        <div class="row gy-5">
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/deluxe1.jpg')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/image/rooms/deluxe1.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/deluxe1.jpg" class="menu-img img-fluid"
-
-                                        alt="" /></a>
-                                <h4>Deluxe 1</h4>
-
-                                <p class="price">Rs. 35000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/deluxe2.webp')}}" class="menu-img img-fluid"
-
-                                <a href="public/assets/image/rooms/deluxe2.webp" class="glightbox"><img
-                                        src="public/assets/image/rooms/deluxe2.webp" class="menu-img img-fluid"
-                                        alt="" />
-                                </a>
-                                <h4>Deluxe 2</h4>
-
-                                <p class="price">Rs. 36000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-<<<<<<< HEAD
-                                <a href="" class="glightbox"><img
-                                                src="{{ asset('assets/image/rooms/deluxe3.jpg')}}" class="menu-img img-fluid"
-                                <a href="public/assets/image/rooms/deluxe3.jpg" class="glightbox"><img
-                                        src="public/assets/image/rooms/deluxe3.jpg" class="menu-img img-fluid"
->>>>>>> b5fb90cb0b292dc17b0201f5e1bf930341c3cb72
-                                        alt="" /></a>
-                                <h4>Deluxe 3</h4>
-
-                                <p class="price">Rs. 34000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/deluxe4.webp')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Deluxe 4</h4>
-
-                                <p class="price">Rs. 37000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/deluxe5.webp')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Deluxe 5</h4>
-
-                                <p class="price">Rs. 37000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/deluxe6.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Deuxe 6</h4>
-
-                                <p class="price">Rs. 39000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-                        </div>
-                    </div>
-                    <!-- End Breakfast Menu Content -->
-
-                    <div class="tab-pane fade" id="menu-lunch">
-                        <div class="tab-header text-center">
-                            <p>Rooms</p>
-                            <h3>Family Room</h3>
-                        </div>
-
-                        <div class="row gy-5">
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/family1.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Family 1</h4>
-                                <p class="ingredients">
-                                    Lorem, deren, trataro, filede, nerada
-                                </p>
-                                <p class="price">Rs. 45000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/family2.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Family 2</h4>
-
-                                <p class="price">Rs. 47000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/family3.webp')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Family 3</h4>
-
-                                <p class="price">Rs. 45000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/family4.webp')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>family 4</h4>
-
-                                <p class="price">Rs. 40000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/family5.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Family 5</h4>
-
-                                <p class="price">Rs. 47000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/family6.webp')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Family 6</h4>
-
-                                <p class="price">Rs. 48000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-                        </div>
-                    </div>
-                    <!-- End Lunch Menu Content -->
-
-                    <div class="tab-pane fade" id="menu-dinner">
-                        <div class="tab-header text-center">
-                            <p>Rooms</p>
-                            <h3>Executive Room</h3>
-                        </div>
-
-                        <div class="row gy-5">
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/executive1.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Executive 1</h4>
-
-                                <p class="price">Rs. 50000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/executive2.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Executive 2</h4>
-
-                                <p class="price">Rs. 52000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/executive3.webp')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Executive 3</h4>
-
-                                <p class="price">Rs. 54000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/executive4.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Execitive 4</h4>
-
-                                <p class="price">Rs. 55000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/executive5.jpg')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Executive 5</h4>
-
-                                <p class="price">Rs. 49000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-
-                            <div class="col-lg-4 menu-item">
-                                <a href="" class="glightbox"><img
-                                        src="{{ asset('assets/image/rooms/executive6.webp')}}" class="menu-img img-fluid"
-                                        alt="" /></a>
-                                <h4>Executive 6</h4>
-
-                                <p class="price">Rs. 52000 per-night</p>
-                            </div>
-                            <!-- Menu Item -->
-                        </div>
-                    </div>
-                    <!-- End Dinner Menu Content -->
-                </div>
-            </div>
-        </section>
-        <!-- /Menu Section -->
-
-        <!-- Testimonials Section -->
-        <section id="testimonials" class="testimonials section light-background">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Feedbacks</h2>
-                <p>
-                    What does our customer
-                    <span class="description-title">Saying About Us</span>
-                </p>
-            </div>
-            <!-- End Section Title -->
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper init-swiper">
-                    <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                }
-              }
-            </script>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>I had a truly amazing stay at AHP Hotel. The staff
-                                                    were incredibly welcoming, the rooms were spotless
-                                                    and luxurious, and the amenities exceeded my
-                                                    expectations. The attention to detail and the level
-                                                    of service were unparalleled. Thank you for making
-                                                    my trip so memorable—I can’t wait to return!</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>Sara Alia</h3>
-
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
+            <ul class="nav nav-tabs justify-content-center mb-3" id="roomTabs" role="tablist">
+                <li class="nav-item"><a class="nav-link active" data-bs-toggle="tab" href="#standard">Standard</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#deluxe">Deluxe</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#family">Family</a></li>
+                <li class="nav-item"><a class="nav-link" data-bs-toggle="tab" href="#executive">Executive</a></li>
+            </ul>
+
+            <div class="tab-content">
+                @foreach (['standardRooms' => 'standard', 'deluxeRooms' => 'deluxe', 'familyRooms' => 'family', 'executiveRooms' => 'executive'] as $var => $id)
+                    <div class="tab-pane fade {{ $loop->first ? 'show active' : '' }}" id="{{ $id }}">
+                        <div class="row">
+                            @forelse($$var as $room)
+                                <div class="col-md-4 mb-4">
+                                    <div class="card h-100 position-relative">
+                                        @if ($room->image_path)
+                                            <img src="{{ asset('storage/' . $room->image_path) }}" class="card-img-top"
+                                                alt="Room Image">
+                                        @endif
+                                        <div class="card-body">
+                                            <h5 class="card-title">{{ $room->title }}</h5>
+                                            <p class="card-text">{{ $room->description }}</p>
+                                            <p><strong>Capacity:</strong> {{ $room->capacity }}</p>
+                                            <p><strong>Price:</strong> Rs. {{ $room->price }}</p>
+                                            <span class="badge bg-{{ $room->is_available ? 'success' : 'danger' }}">
+                                                {{ $room->is_available ? 'Available' : 'Unavailable' }}
+                                            </span>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('assets/image/testimonials/kt1.avif')}}"
-                                            class="img-fluid testimonial-img" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>I want to commend the team at AHP Hotel for an
-                                                    incredible dining experience. The food was
-                                                    exquisite, the ambiance was perfect, and the service
-                                                    was impeccable. It truly added to the charm of
-                                                    staying at [Hotel Name]. Kudos to the chef and
-                                                    staff!</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>Siana Mae</h3>
-                                            <h4>Designer</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('assets/image/testimonials/kt2.webp')}}"
-                                            class="img-fluid testimonial-img" alt="" />
+                                        <a href="#book-room" class="stretched-link book-room-link"
+                                            data-room-type="{{ $room->title }}" data-room-price="{{ $room->price }}">
+                                        </a>
                                     </div>
                                 </div>
-                            </div>
+                            @empty
+                                <p class="text-muted">No {{ ucfirst($id) }} rooms available at the moment.</p>
+                            @endforelse
                         </div>
-                        <!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>My stay at AHP Hotel was excellent. The conference
-                                                    facilities were top-notch, and the staff ensured
-                                                    that everything ran smoothly. The room was
-                                                    comfortable, with all the amenities I needed to
-                                                    unwind after a long day. Highly recommended for
-                                                    business travelers!</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>Jason Karl</h3>
-                                            <h4>CEO of Nabil Bank</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('assets/image/testimonials/kta3.webp')}}"
-                                            class="img-fluid testimonial-img" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End testimonial item -->
-
-                        <div class="swiper-slide">
-                            <div class="testimonial-item">
-                                <div class="row gy-4 justify-content-center">
-                                    <div class="col-lg-6">
-                                        <div class="testimonial-content">
-                                            <p>
-                                                <i class="bi bi-quote quote-icon-left"></i>
-                                                <span>Thank you, AHP Hotel, for a wonderful family
-                                                    holiday. The kids loved the pool, and we appreciated
-                                                    the family-friendly atmosphere and activities. The
-                                                    food was delicious, and the staff went above and
-                                                    beyond to make us feel at home. We will definitely
-                                                    be back!</span>
-                                                <i class="bi bi-quote quote-icon-right"></i>
-                                            </p>
-                                            <h3>John Larson</h3>
-                                            <h4>Entrepreneur</h4>
-                                            <div class="stars">
-                                                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                                                    class="bi bi-star-fill"></i>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-2 text-center">
-                                        <img src="{{ asset('assets/image/testimonials/kta4.webp')}}"
-                                            class="img-fluid testimonial-img" alt="" />
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- End testimonial item -->
                     </div>
-                    <div class="swiper-pagination"></div>
-                </div>
+                @endforeach
             </div>
-        </section>
-        <!-- /Testimonials Section -->
+        </div>
+    </section>
 
-        <!-- Events Section -->
-        <section id="events" class="events section">
-            <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper init-swiper">
-                    <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 40
-                  },
-                  "1200": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 1
-                  }
-                }
-              }
-            </script>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                            style="background-image: url({{ asset('assets/image/birthday.jpg')}})">
-                            <h3>Birthday Parties</h3>
-                            <div class="price align-self-start">Rs. 35000</div>
-                            <p class="description">
-                                Make your birthday celebrations unforgettable at AHP Hotel.
-                                Whether it’s an intimate gathering or a grand party, we offer
-                                the perfect setting to create magical memories.
-                            </p>
-                        </div>
-                        <!-- End Event item -->
 
-                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                            style="background-image: url({{ asset('assets/image/fashion.jpg')}})">
-                            <h3>Fashion Shows</h3>
-                            <div class="price align-self-start">Rs. 150000</div>
-                            <p class="description">
-                                Set the stage for style and glamour at AHP Hotel. Our
-                                sophisticated venues and exceptional services make us the
-                                ideal choice for hosting unforgettable fashion shows.
-                            </p>
-                        </div>
-                        <!-- End Event item -->
-
-                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                            style="background-image: url({{ asset('assets/image/wedding.jpg')}})">
-                            <h3>Wedding Parties</h3>
-                            <div class="price align-self-start">Rs. 200000</div>
-                            <p class="description">
-                                Celebrate your love story in the enchanting ambiance of AHP
-                                Hotel. Whether you envision an intimate ceremony or a grand
-                                reception, our luxurious spaces and impeccable services ensure
-                                a day as perfect as your love.
-                            </p>
-                        </div>
-                        <!-- End Event item -->
-
-                        <div class="swiper-slide event-item d-flex flex-column justify-content-end"
-                            style="background-image: url({{ asset('assets/image/reunion.jpg')}})">
-                            <h3>Reunion Parties</h3>
-                            <div class="price align-self-start">Rs. 90000</div>
-                            <p class="description">
-                                Host an unforgettable reunion party at AHP Hotel, where
-                                cherished memories meet exceptional hospitality. Whether it’s
-                                a school reunion, family gathering, or corporate milestone, we
-                                provide the perfect setting to celebrate togetherness.
-                            </p>
-                        </div>
-                        <!-- End Event item -->
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
+    <!-- EVENTS SECTION -->
+    <section id="events" class="section py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Upcoming Events</h2>
+                <p class="text-muted">We host a variety of unforgettable events!</p>
             </div>
-        </section>
-        <!-- /Events Section -->
 
-        <!-- Chefs Section -->
-        <section id="chefs" class="chefs section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>TEAM</h2>
-                <p>
-                    <span>Our</span>
-                    <span class="description-title">Team<br /></span>
-                </p>
-            </div>
-            <!-- End Section Title -->
-
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('assets/image/members/Anisa.jpeg')}}" class="img-fluid" alt="" />
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Anisha Bishokarma</h4>
-                                <span>General Manager</span>
-                                <p>
-                                    The top leader responsible for the overall operation,
-                                    performance, and success of the hotel. They oversee all
-                                    departments and ensure excellent guest experiences while
-                                    maintaining profitability.
-                                </p>
+            <div class="row">
+                @foreach ($events as $event)
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100">
+                            @if ($event->image)
+                                <img src="{{ asset('uploads/' . $event->image) }}" class="card-img-top" alt="Event">
+                            @endif
+                            <div class="card-body">
+                                <h5 class="card-title">{{ $event->topic }}</h5>
+                                <p class="card-text">{{ $event->content }}</p>
+                                <p><strong>Price:</strong> Rs. {{ $event->price }}</p>
                             </div>
                         </div>
                     </div>
-                    <!-- End Chef Team Member -->
-
-                    <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('assets/image/members/Hridu.jpeg')}}" class="img-fluid" alt="" />
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Hridayika Gurung</h4>
-                                <span>Director of Operations</span>
-                                <p>
-                                    The second-in-command, focused on managing the day-to-day
-                                    operations across various departments, ensuring everything
-                                    runs smoothly and efficiently.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Chef Team Member -->
-
-                    <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-                        <div class="team-member">
-                            <div class="member-img">
-                                <img src="{{ asset('assets/image/members/pg.jpeg')}}" class="img-fluid" alt="" />
-                                <div class="social">
-                                    <a href=""><i class="bi bi-twitter-x"></i></a>
-                                    <a href=""><i class="bi bi-facebook"></i></a>
-                                    <a href=""><i class="bi bi-instagram"></i></a>
-                                    <a href=""><i class="bi bi-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <div class="member-info">
-                                <h4>Pratikshya Gurung</h4>
-                                <span>Director of Sales and Marketing</span>
-                                <p>
-                                    Responsible for driving revenue by creating strategies to
-                                    attract guests, promoting the hotel, and managing event
-                                    bookings like weddings, conferences, and reunions.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- End Chef Team Member -->
-                </div>
+                @endforeach
             </div>
-        </section>
-        <!-- /Chefs Section -->
+        </div>
+    </section>
 
-        <!-- Book A Table Section -->
-        <section id="book-a-table" class="book-a-table section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Book A Room</h2>
-                <p>
-                    <span>Book Your</span>
-                    <span class="description-title">Stay With Us<br /></span>
-                </p>
+    <!-- BOOKING SECTION -->
+    <section id="book-room" class="section py-5 bg-white">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Book Your Stay</h2>
+                <p class="text-muted">Secure your room today – we look forward to welcoming you.</p>
             </div>
-            <!-- End Section Title -->
-
-            <div class="container">
-                <div class="row g-0" data-aos="fade-up" data-aos-delay="100">
-                    <div class="col-lg-4 reservation-img"
-                        style="background-image: url({{ asset('assets/image/lobby.avif')}})"></div>
-
-                    <div class="col-lg-8 d-flex align-items-center reservation-form-bg" data-aos="fade-up"
-                        data-aos-delay="200">
-                        <form action="forms/book-a-table.php" method="post" role="form" class="php-email-form">
-                            <div class="row gy-4">
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="text" name="name" class="form-control" id="name"
-                                        placeholder="Your Name" required="" />
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email" required="" />
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="text" class="form-control" name="phone" id="phone"
-                                        placeholder="Your Phone" required="" />
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="date" name="date" class="form-control" id="date"
-                                        placeholder="Date" required="" />
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="time" class="form-control" name="time" id="time"
-                                        placeholder="Time" required="" />
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="number" class="form-control" name="people" id="people"
-                                        placeholder="# of people" required="" />
-                                </div>
-                                <div class="col-lg-4 col-md-6">
-                                    <input type="number" class="form-control" name="payment" id="payment"
-                                        placeholder="Payment" required="" />
-                                </div>
-                            </div>
-
-                            <div class="form-group mt-3">
-                                <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
-                            </div>
-
-                            <div class="text-center mt-3">
-                                <div class="loading">Loading</div>
-                                <div class="error-message"></div>
-                                <div class="sent-message">
-                                    Your booking request was sent. We will call back or send an
-                                    Email to confirm your reservation. Thank you!
-                                </div>
-                                <button type="submit">Book a Room</button>
-                            </div>
-                        </form>
-                    </div>
-                    <!-- End Reservation Form -->
-                </div>
-            </div>
-        </section>
-        <!-- /Book A Table Section -->
-
-        <!-- Gallery Section -->
-        <section id="gallery" class="gallery section light-background">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Gallery</h2>
-                <p>
-                    <span>Check</span>
-                    <span class="description-title">Our Gallery</span>
-                </p>
-            </div>
-            <!-- End Section Title -->
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="swiper init-swiper">
-                    <script type="application/json" class="swiper-config">
-              {
-                "loop": true,
-                "speed": 600,
-                "autoplay": {
-                  "delay": 5000
-                },
-                "slidesPerView": "auto",
-                "centeredSlides": true,
-                "pagination": {
-                  "el": ".swiper-pagination",
-                  "type": "bullets",
-                  "clickable": true
-                },
-                "breakpoints": {
-                  "320": {
-                    "slidesPerView": 1,
-                    "spaceBetween": 0
-                  },
-                  "768": {
-                    "slidesPerView": 3,
-                    "spaceBetween": 20
-                  },
-                  "1200": {
-                    "slidesPerView": 5,
-                    "spaceBetween": 20
-                  }
-                }
-              }
-            </script>
-                    <div class="swiper-wrapper align-items-center">
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy1.avif')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy2.jpg')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy3.jpg')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy4.webp')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy5.jpg')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy6.jpg')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy7.jpg')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a class="glightbox" data-gallery="images-gallery"
-                                href=""><img
-                                    src="{{ asset('assets/image/gallery/enjoy8.webp')}}" class="img-fluid"
-                                    alt="" /></a>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-        <!-- /Gallery Section -->
-
-        <!-- Contact Section -->
-        <section id="contact" class="contact section">
-            <!-- Section Title -->
-            <div class="container section-title" data-aos="fade-up">
-                <h2>Contact</h2>
-                <p>
-                    <span>Need Help?</span>
-                    <span class="description-title">Contact Us</span>
-                </p>
-            </div>
-            <!-- End Section Title -->
-
-            <div class="container" data-aos="fade-up" data-aos-delay="100">
-                <div class="mb-5">
-                    <!-- <iframe
-              style="width: 100%; height: 400px"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-              frameborder="0"
-              allowfullscreen=""
-            ></iframe> -->
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14064.199216255613!2d83.9745752!3d28.2057994!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995956db5f22503%3A0x55189e70e1db6ca3!2sXDezo%20Technologies!5e0!3m2!1sen!2snp!4v1733820278417!5m2!1sen!2snp"
-                        style="width: 100%; height: 400px" style="border: 0" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-                <!-- End Google Maps -->
-
-                <div class="row gy-4">
+            <form method="POST" action="{{ route('room.book.esewa') }}">
+                @csrf
+                <div class="row g-3">
+                    <!-- Room Type (readonly) -->
                     <div class="col-md-6">
-                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-                            <i class="icon bi bi-geo-alt flex-shrink-0"></i>
-                            <div>
-                                <h3>Address</h3>
-                                <p>Street no.16, Lakeside, Pokhara</p>
-                            </div>
-                        </div>
+                        <input type="text" id="roomTypeInput" name="room_type" class="form-control"
+                            placeholder="Room Type" readonly required>
                     </div>
-                    <!-- End Info Item -->
 
+                    <!-- Room Price (readonly) -->
                     <div class="col-md-6">
-                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="300">
-                            <i class="icon bi bi-telephone flex-shrink-0"></i>
-                            <div>
-                                <h3>Call Us</h3>
-                                <p>+977 9800000000</p>
-                            </div>
-                        </div>
+                        <input type="number" id="priceInput" name="payment" class="form-control"
+                            placeholder="Payment Amount" readonly required>
                     </div>
-                    <!-- End Info Item -->
 
-                    <div class="col-md-6">
-                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="400">
-                            <i class="icon bi bi-envelope flex-shrink-0"></i>
-                            <div>
-                                <h3>Email Us</h3>
-                                <p>hotelAHP@gmail.com</p>
-                            </div>
-                        </div>
+                    <!-- User Info -->
+                    <div class="col-md-4">
+                        <input type="text" name="name" class="form-control" placeholder="Your Name" required>
                     </div>
-                    <!-- End Info Item -->
-
-                    <div class="col-md-6">
-                        <div class="info-item d-flex align-items-center" data-aos="fade-up" data-aos-delay="500">
-                            <i class="icon bi bi-clock flex-shrink-0"></i>
-                            <div>
-                                <h3>Opening Hours<br /></h3>
-                                <p>
-                                    <strong>Mon-Sat:</strong> 11AM - 23PM;
-                                    <strong>Sunday:</strong> Closed
-                                </p>
-                            </div>
-                        </div>
+                    <div class="col-md-4">
+                        <input type="email" name="email" class="form-control" placeholder="Your Email" required>
                     </div>
-                    <!-- End Info Item -->
+                    <div class="col-md-4">
+                        <input type="text" name="phone" class="form-control" placeholder="Your Phone" required>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="date" name="date" class="form-control" required>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="time" name="time" class="form-control" required>
+                    </div>
+                    <div class="col-md-4">
+                        <input type="number" name="people" class="form-control" placeholder="# of People" required>
+                    </div>
+                    <div class="col-md-12">
+                        <textarea name="message" rows="4" class="form-control" placeholder="Any special requests?"></textarea>
+                    </div>
                 </div>
+                <div class="text-center mt-4">
+                    <button class="btn btn-success" type="submit">Submit Booking</button>
+                </div>
+            </form>
 
-                <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up"
-                    data-aos-delay="600">
-                    <div class="row gy-4">
-                        <div class="col-md-6">
-                            <input type="text" name="name" class="form-control" placeholder="Your Name"
-                                required="" />
-                        </div>
 
-                        <div class="col-md-6">
-                            <input type="email" class="form-control" name="email" placeholder="Your Email"
-                                required="" />
-                        </div>
+        </div>
+    </section>
 
-                        <div class="col-md-12">
-                            <input type="text" class="form-control" name="subject" placeholder="Subject"
-                                required="" />
-                        </div>
-
-                        <div class="col-md-12">
-                            <textarea class="form-control" name="message" rows="6" placeholder="Message" required=""></textarea>
-                        </div>
-
-                        <div class="col-md-12 text-center">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">
-                                Your message has been sent. Thank you!
-                            </div>
-
-                            <button type="submit">Send Message</button>
-                        </div>
-                    </div>
-                </form>
-                <!-- End Contact Form -->
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section py-5 bg-light">
+        <div class="container">
+            <div class="section-title text-center mb-4">
+                <h2>Contact Us</h2>
+                <p class="text-muted">Need help? We're just a call or email away.</p>
             </div>
-        </section>
-        <!-- /Contact Section -->
-    </main>
+            <div class="row">
+                <div class="col-md-6">
+                    <p><strong>📍 Address:</strong> Lakeside Street 16, Pokhara</p>
+                    <p><strong>📞 Phone:</strong> +977 9800000000</p>
+                    <p><strong>📧 Email:</strong> hotelAHP@gmail.com</p>
+                </div>
+                <div class="col-md-6">
+                    <form action="{{ route('contact.submit') }}" method="POST">
+                        @csrf
+                        <input type="text" name="name" class="form-control mb-2" placeholder="Your Name" required>
+                        <input type="email" name="email" class="form-control mb-2" placeholder="Your Email"
+                            required>
+                        <input type="text" name="subject" class="form-control mb-2" placeholder="Subject" required>
+                        <textarea name="message" class="form-control mb-2" rows="4" placeholder="Your Message" required></textarea>
+                        <button class="btn btn-primary" type="submit">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const links = document.querySelectorAll('.book-room-link');
+            const roomInput = document.getElementById('roomTypeInput');
+            const priceInput = document.getElementById('priceInput');
+
+            links.forEach(link => {
+                link.addEventListener('click', function(e) {
+                    const type = this.getAttribute('data-room-type');
+                    const price = this.getAttribute('data-room-price');
+
+                    roomInput.value = type;
+                    priceInput.value = price;
+                });
+            });
+        });
+    </script>
 @endsection
-   
